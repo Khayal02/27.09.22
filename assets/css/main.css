@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.grayscale{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight:400;
+    display: inline-block;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 11vh;
+    /* background-color: rgba(61, 107, 100, 0.564); */
+    align-content: center;
+    justify-content: center;
+}
+.nav-div{
+    width: 80%;
+    /* background-color: rgba(110, 99, 85, 0.407); */
+    margin: auto;
+    height: 11vh;
+   
+    /* justify-content:center ;
+    align-content: center; */
+}
+nav h1{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+.nav-div-left{
+    width: 40%;
+    height: 100%;
+    /* background-color: azure; */
+    justify-content: left;
+}
+.nav-div-right{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(130, 50, 40); */
+    justify-content: right;
+    
+}
+nav ol{
+    margin-top: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+.d-flex{
+    display: flex;
+    
+}
+.test{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+    
+}
+.test-h2{
+    font-size:20px ;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.5)
+}
+.test-top{
+width: 100%;
+height: 133px;
+
+
+}
+.test-bottom{
+width: 314px;
+height:68px;
+
+}
+.test button{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding: 20px 15px;
+    background-color: #64a19d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) 
+   
+}
+button a{
+    color: rgb(226, 223, 223);
+}
+.built{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.c-built{
+    width: 80%;
+    height: 40vh;
+    /* background-color: #64a19d; */
+    margin: auto;
+    justify-content: center;
+}
+.built h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 200;
+    display: inline-block;
+    margin-top: 30px;
+}
+.built h2{
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.built-write-div{
+    width: 80%;
+    text-align: center;
+}
+.img{
+    width: 1226px;
+    height: 380px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.img img{
+    width: 1226px;
+    height: 380px;
+}
+.shorline{
+    width: 100%;
+    height: 100vh;
+    background-color: #64a19d;
+}
+.shorline-img{
+    width: 816px;
+    height: 511px;
+    background-color: antiquewhite;
+   
+}
+.c-shorline{
+    width: 80%;
+    height: 511px;
+    background-color: rgb(95, 121, 121);
+    margin: auto;
+    display: inline-flex;
+    margin-top: 120px; 
+    margin-left: 160px;
+    text-align: center;  
+}
+.c-shor{
+    width: 100%;
+    height: 100%;
+   
+    text-align: center;
+}
+.shorline-img img{
+    width: 816px;
+    height: 511px;
+    display: inline-block;
+}
+.c-shor h1{
+font-size: 25px;
+color: black;
+letter-spacing: 2px;
+font-weight: 300;
+font-family: sans-serif;
+display: inline-block;
+margin: auto;
+margin-top:200px ;
+}
+.c-shor h2{
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.shor-right{
+    width: 400px;
+    height: 511px;
+    background-color: aqua;
+    display: inline-block;
+}
